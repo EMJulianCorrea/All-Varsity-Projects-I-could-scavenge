@@ -1,0 +1,14 @@
+{
+  "name": "azure-function-pipeline",
+  "version": "1.0.0",
+  "description": "HTTP -> Queue -> Table Storage Azure Functions pipeline",
+  "main": "src/*.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.5.0",
+    "@azure/storage-queue": "^12.24.0",
+    "@azure/data-tables": "^13.2.2"
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_title">Rekening</string>
+    <string name="not_signed_in">Nie aangemeld nie</string>
+    <string name="view_full_profile">Bekyk volledige profiel</string>
+    <string name="my_bookings">My besprekings</string>
+    <string name="my_messages">My boodskappe</string>
+    <string name="support_header">Ondersteuning</string>
+    <string name="help_center">Hulpsentrum</string>
+    <string name="app_feedback">Toepassing terugvoer</string>
+    <string name="preferences_header">Voorkeure</string>
+    <string name="language_label">Taal</string>
+    <string name="notification_label">Kennisgewing</string>
+    <string name="choose_language_title">Kies taal</string>
+    <string name="security_header">Sekuriteit</string>
+    <string name="biometric_login_label">Biometriese aanmelding</string>
+    <string name="biometric_set_up_action">Stel op</string>
+</resources>

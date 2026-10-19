@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "186731779473",
+    "project_id": "drivemate-4ad14",
+    "storage_bucket": "drivemate-4ad14.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186731779473:android:dd96819af10d6a02437630",
+        "android_client_info": {
+          "package_name": "com.drivemate.sa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186731779473-t2umjuafiscb2s154acjntfqsv1l4f1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.drivemate.sa",
+            "certificate_hash": "eea1fe26058f08d7e445ba5fb5d7ac42b9629ea0"
+          }
+        },
+        {
+          "client_id": "186731779473-ntok6qjr26eqovs960tdc6fhj7sg2qhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8wssZpmA2ihwVpmjGAmUYA1IP2O0MIF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186731779473-ntok6qjr26eqovs960tdc6fhj7sg2qhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "CLDV6212_Poe_Group1_CoffeeNChill": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7100",
+      "launchBrowser": false
+    }
+  }
+}

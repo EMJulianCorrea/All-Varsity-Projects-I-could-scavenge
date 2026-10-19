@@ -1,0 +1,7 @@
+Part 1
+
+- No real payment portal. Just print transactions
+- Payment portal should be protected like one
+- Readme in Arc as pdf
+- Video link, not actual video
+

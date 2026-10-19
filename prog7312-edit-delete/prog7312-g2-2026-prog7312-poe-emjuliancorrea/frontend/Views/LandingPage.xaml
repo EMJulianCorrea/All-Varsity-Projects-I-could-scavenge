@@ -1,0 +1,56 @@
+<Page x:Class="Smart_X.frontend.Views.LandingPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Home">
+    <Grid Background="{StaticResource SurfaceBrush}">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" MaxWidth="980">
+
+            <TextBlock Text="Welcome to Smart-X!!" FontSize="26" FontWeight="Bold"
+                       Foreground="{StaticResource BrandDarkBrush}" HorizontalAlignment="Center" Margin="0,0,0,4"/>
+            <TextBlock Text="Choose where you would like to go" FontSize="13"
+                       Foreground="{StaticResource MutedTextBrush}" HorizontalAlignment="Center" Margin="0,0,0,28"/>
+
+            <UniformGrid Rows="1" Columns="3">
+
+                <Button x:Name="SensorTile" Style="{StaticResource LandingTileStyle}" Click="SensorTile_Click"
+                        ToolTip="Register sensors, simulate telemetry, and attach hardware log files.">
+                    <StackPanel>
+                        <TextBlock Text="🛰️" FontSize="30" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                        <TextBlock Text="Sensor Data Ingestion&#10;and Telemetry" FontWeight="SemiBold" FontSize="15"
+                                   TextAlignment="Center" TextWrapping="Wrap" Foreground="{StaticResource BrandDarkBrush}"/>
+                        <TextBlock Text="Register sensors, stream simulated readings, and attach logs."
+                                   FontSize="11" Foreground="{StaticResource MutedTextBrush}"
+                                   TextAlignment="Center" TextWrapping="Wrap" Margin="0,8,0,0"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="CommandStreamTile" Style="{StaticResource LandingTileStyle}"
+                        Click="UnderContructionTile_Click"
+                        ToolTip="Real-time command stream and history (Under Construction)">
+                    <StackPanel>
+                        <TextBlock Text="⌛" FontSize="30" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                        <TextBlock Text="Real-Time Command Stream&#10;and History" FontWeight="SemiBold" FontSize="15"
+                                   TextAlignment="Center" TextWrapping="Wrap" Foreground="{StaticResource BrandDarkBrush}"/>
+                        <Border Background="#FFF3D6" CornerRadius="10" Padding="8,3" Margin="0,10,0,0" HorizontalAlignment="Center">
+                            <TextBlock Text="Under Construction" FontSize="10" FontWeight="SemiBold" Foreground="{StaticResource WarnBrush}"/>
+                        </Border>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="NetworkTopologyTile" Style="{StaticResource LandingTileStyle}"
+                        Click="UnderContructionTile_Click" 
+                        ToolTip="Network topology and mesh routing (Under Contruction)">
+                    <StackPanel>
+                        <TextBlock Text="🕸️" FontSize="30" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                        <TextBlock Text="Network Topology&#10;and Mesh Routing" FontWeight="SemiBold" FontSize="15"
+                                   TextAlignment="Center" TextWrapping="Wrap" Foreground="{StaticResource BrandDarkBrush}"/>
+                        <Border Background="#FFF3D6" CornerRadius="10" Padding="8,3" Margin="0,10,0,0" HorizontalAlignment="Center">
+                            <TextBlock Text="Under Construction" FontSize="10" FontWeight="SemiBold" Foreground="{StaticResource WarnBrush}"/>
+                        </Border>
+                    </StackPanel>
+                </Button>
+
+            </UniformGrid>
+        </StackPanel>
+    </Grid>
+</Page>

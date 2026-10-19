@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "826323009251",
+    "project_id": "live-notification-demo-369d8",
+    "storage_bucket": "live-notification-demo-369d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826323009251:android:a9cf74321bdcabe11acfd6",
+        "android_client_info": {
+          "package_name": "com.example.livenotifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBspZNvDoMJcjMVl-GWPv_6u2sJGwmYqsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

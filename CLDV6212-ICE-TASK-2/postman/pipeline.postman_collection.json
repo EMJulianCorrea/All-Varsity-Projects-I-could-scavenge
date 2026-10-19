@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "Azure Function Pipeline",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Submit Message",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "http://localhost:7071/api/submit",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "7071",
+          "path": ["api", "submit"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Test User\",\n  \"message\": \"Hello from Postman\"\n}"
+        }
+      }
+    }
+  ]
+}

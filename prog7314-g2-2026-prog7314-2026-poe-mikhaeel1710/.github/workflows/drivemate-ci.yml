@@ -1,0 +1,72 @@
+name: DriveMate CI
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - "feature/**"
+
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  android:
+    name: Android Build and Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Java
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Install Android API 37
+        shell: bash
+        run: |
+          SDKMANAGER="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager"
+          "$SDKMANAGER" --version
+          yes | "$SDKMANAGER" --licenses > /dev/null || true
+          "$SDKMANAGER" "platform-tools" "platforms;android-37.0" "build-tools;37.0.0"
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v6
+
+      - name: Make Gradle wrapper executable
+        run: chmod +x gradlew
+
+      - name: Run Android unit tests
+        run: ./gradlew test
+
+      - name: Build Android debug APK
+        run: ./gradlew assembleDebug
+
+  api:
+    name: ASP.NET Core API Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up .NET 10
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Restore API
+        run: dotnet restore api/DriveMate.Api.csproj
+
+      - name: Run API unit tests
+        run: dotnet test api-tests/DriveMate.Api.Tests.csproj --configuration Release
+      - name: Build API
+        run: >
+          dotnet build
+          api/DriveMate.Api.csproj
+          --configuration Release
+          --no-restore

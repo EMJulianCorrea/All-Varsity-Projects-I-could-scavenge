@@ -1,0 +1,14 @@
+services:
+  smart-x-api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+    volumes:
+      - sensor-logs:/app/sensor-logs
+
+volumes:
+  sensor-logs:

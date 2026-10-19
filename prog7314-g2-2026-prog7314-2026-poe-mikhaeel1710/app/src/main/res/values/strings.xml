@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DriveMate</string>
+    <string name="account_title">Account</string>
+    <string name="not_signed_in">Not signed in</string>
+    <string name="view_full_profile">View full profile</string>
+    <string name="my_bookings">My bookings</string>
+    <string name="my_messages">My messages</string>
+    <string name="support_header">Support</string>
+    <string name="help_center">Help center</string>
+    <string name="app_feedback">App feedback</string>
+    <string name="preferences_header">Preferences</string>
+    <string name="language_label">Language</string>
+    <string name="notification_label">Notification</string>
+    <string name="choose_language_title">Choose language</string>
+    <string name="security_header">Security</string>
+    <string name="biometric_login_label">Biometric login</string>
+    <string name="biometric_set_up_action">Set up</string>
+</resources>

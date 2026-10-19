@@ -1,0 +1,14 @@
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\bin\Debug\net8.0\StaircaseProblem.exe
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\bin\Debug\net8.0\StaircaseProblem.deps.json
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\bin\Debug\net8.0\StaircaseProblem.runtimeconfig.json
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\bin\Debug\net8.0\StaircaseProblem.dll
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\bin\Debug\net8.0\StaircaseProblem.pdb
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\obj\Debug\net8.0\StaircaseProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\obj\Debug\net8.0\StaircaseProblem.AssemblyInfoInputs.cache
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\obj\Debug\net8.0\StaircaseProblem.AssemblyInfo.cs
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\obj\Debug\net8.0\StaircaseProblem.csproj.CoreCompileInputs.cache
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\obj\Debug\net8.0\StaircaseProblem.dll
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\obj\Debug\net8.0\refint\StaircaseProblem.dll
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\obj\Debug\net8.0\StaircaseProblem.pdb
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\obj\Debug\net8.0\StaircaseProblem.genruntimeconfig.cache
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\StaircaseProblem\obj\Debug\net8.0\ref\StaircaseProblem.dll

@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap");
+
+:root {
+    --color-bg: #12121c;
+    --color-surface: #1c1c2a;
+    --color-border: #2e2e42;
+    --color-text: #e8e6f0;
+    --color-text-muted: #9b98b0;
+    --color-accent: #7c5cff;
+    --color-accent-hover: #6647e0;
+    --color-error: #ff6b6b;
+    --color-error-bg: #3a1f24;
+
+    --font-display: "Space Grotesk", system-ui, sans-serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+    color-scheme: dark;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+}
+
+.auth-card {
+    width: min(380px, calc(100vw - 2.5rem));
+    margin: 4rem auto;
+    padding: 2.25rem 2rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+}
+
+.auth-card h1 {
+    margin: 0 0 0.25rem;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+.auth-card p.tagline {
+    margin: 0 0 1.75rem;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+}
+
+.auth-nav {
+    display: flex;
+    gap: 0.25rem;
+    padding: 0.25rem;
+    margin-bottom: 1.75rem;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+}
+
+.auth-nav button {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    color: var(--color-text-muted);
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.auth-nav button:hover {
+    color: var(--color-text);
+}
+
+.auth-nav button.active {
+    background: var(--color-accent);
+    color: #ffffff;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.auth-form h2 {
+    margin: 0 0 0.25rem;
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.form-field label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+}
+
+.form-field input {
+    padding: 0.65rem 0.75rem;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-field input::placeholder {
+    color: var(--color-text-muted);
+    opacity: 0.7;
+}
+
+.form-field input:hover {
+    border-color: #3d3d57;
+}
+
+.form-field input:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px rgba(124, 92, 255, 0.25);
+}
+
+.form-field input:invalid:not(:placeholder-shown) {
+    border-color: var(--color-error);
+}
+
+button {
+    font-family: var(--font-body);
+}
+
+.auth-form button[type="submit"] {
+    margin-top: 0.4rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-accent);
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s ease, transform 0.05s ease;
+}
+
+.auth-form button[type="submit"]:hover {
+    background: var(--color-accent-hover);
+}
+
+.auth-form button[type="submit"]:active {
+    transform: translateY(1px);
+}
+
+.auth-form button[type="submit"]:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+.auth-form button[type="submit"]:disabled {
+    background: var(--color-border);
+    color: var(--color-text-muted);
+    cursor: not-allowed;
+    transform: none;
+}
+
+.form-error {
+    margin: 0;
+    padding: 0.7rem 0.85rem;
+    background: var(--color-error-bg);
+    border: 1px solid var(--color-error);
+    border-radius: 6px;
+    color: var(--color-error);
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+.field-error {
+    margin-top: 0.3rem;
+    color: var(--color-error);
+    font-size: 0.8rem;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.5rem;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.main-nav .nav-link {
+    padding: 0.5rem 0.9rem;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    color: var(--color-text-muted);
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.main-nav .nav-link:hover {
+    color: var(--color-text);
+    background: var(--color-bg);
+}
+
+.main-nav .nav-link.active {
+    color: #ffffff;
+    background: var(--color-accent);
+}
+
+.main-nav .nav-logout {
+    margin-left: auto;
+    color: var(--color-error);
+}
+
+.main-nav .nav-logout:hover {
+    color: var(--color-error);
+    background: var(--color-error-bg);
+}
+
+.games-page {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 3rem;
+}
+
+.games-page h1 {
+    margin: 0 0 1.5rem;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+.games-status {
+    padding: 1.25rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.1rem;
+}
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    transition: border-color 0.15s ease;
+}
+
+.game-card:hover {
+    border-color: #3d3d57;
+}
+
+.game-card-title {
+    margin: 0 0 0.85rem;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.game-card-meta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem 0.75rem;
+    margin: 0 0 1.1rem;
+}
+
+.game-card-meta div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.game-card-meta dt {
+    color: var(--color-text-muted);
+    font-size: 0.72rem;
+}
+
+.game-card-meta dd {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+.game-card-button {
+    margin-top: auto;
+    padding: 0.6rem 0.9rem;
+    background: transparent;
+    border: 1px solid var(--color-accent);
+    border-radius: 6px;
+    color: var(--color-accent);
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.game-card-button:hover {
+    background: var(--color-accent);
+    color: #ffffff;
+}
+
+.game-card-button:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+    }
+}

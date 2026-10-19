@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="live_notifications">
+        Live Notification Demo Group 1
+    </string>
+
+    <!--
+        Internal ID used to identify the notification channel.
+
+        This value is not normally shown to the user.
+
+        It must match the channel ID used in
+        MyFirebaseMessagingService.kt.
+    -->
+    <string name="default_notification_channel_id">
+        live_notifications
+    </string>
+
+    <!--
+        Name displayed to the user in Android notification settings.
+    -->
+    <string name="notification_channel_name">
+        Live Notifications
+    </string>
+
+    <!--
+        Description displayed in Android notification settings.
+    -->
+    <string name="notification_channel_description">
+        Notifications received from Firebase Cloud Messaging
+    </string>
+
+</resources>

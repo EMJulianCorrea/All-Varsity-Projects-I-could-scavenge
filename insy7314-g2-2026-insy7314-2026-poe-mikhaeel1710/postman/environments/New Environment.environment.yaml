@@ -1,0 +1,10 @@
+name: New Environment
+values:
+  - key: GET
+    value: ''
+  - key: POST
+    value: ''
+  - key: POST
+    value: ''
+  - key: GET
+    value: ''

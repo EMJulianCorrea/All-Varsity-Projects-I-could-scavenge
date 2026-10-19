@@ -1,0 +1,14 @@
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\bin\Debug\net8.0\FibonacciSequence.exe
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\bin\Debug\net8.0\FibonacciSequence.deps.json
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\bin\Debug\net8.0\FibonacciSequence.runtimeconfig.json
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\bin\Debug\net8.0\FibonacciSequence.dll
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\bin\Debug\net8.0\FibonacciSequence.pdb
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\obj\Debug\net8.0\FibonacciSequence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\obj\Debug\net8.0\FibonacciSequence.AssemblyInfoInputs.cache
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\obj\Debug\net8.0\FibonacciSequence.AssemblyInfo.cs
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\obj\Debug\net8.0\FibonacciSequence.csproj.CoreCompileInputs.cache
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\obj\Debug\net8.0\FibonacciSequence.dll
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\obj\Debug\net8.0\refint\FibonacciSequence.dll
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\obj\Debug\net8.0\FibonacciSequence.pdb
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\obj\Debug\net8.0\FibonacciSequence.genruntimeconfig.cache
+C:\Users\emeris\Documents\VS Code\ProgEB\Recursions\FibonacciSequence\obj\Debug\net8.0\ref\FibonacciSequence.dll

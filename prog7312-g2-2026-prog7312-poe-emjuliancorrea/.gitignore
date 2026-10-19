@@ -1,0 +1,15 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio / VS Code
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Uploaded hardware logs when the API is run locally with dotnet run
+sensor-logs/
+
+# Crash logs
+crash.log

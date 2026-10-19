@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "94665342824",
+    "project_id": "authdemos2",
+    "storage_bucket": "authdemos2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94665342824:android:1a2747070320b77477a0dd",
+        "android_client_info": {
+          "package_name": "com.example.googleauthexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWLBEXcUVjVDTRrBFGdYG7QoDy8LZ3yMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

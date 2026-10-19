@@ -1,0 +1,19 @@
+<resources>
+
+<string name="app_name">
+        Google Maps Demo
+    </string>
+
+<string name="search_hint">
+        Search for an address or place
+    </string>
+
+<string name="search_button">
+        Search
+    </string>
+
+<string name="current_location_button">
+        My Location
+    </string>
+
+</resources>

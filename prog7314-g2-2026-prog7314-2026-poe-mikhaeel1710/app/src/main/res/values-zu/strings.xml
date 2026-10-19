@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_title">I-akhawunti</string>
+    <string name="not_signed_in">Awungenile</string>
+    <string name="view_full_profile">Buka iphrofayela ephelele</string>
+    <string name="my_bookings">Okubhukiwe kwami</string>
+    <string name="my_messages">Imilayezo yami</string>
+    <string name="support_header">Ukusekelwa</string>
+    <string name="help_center">Isikhungo sosizo</string>
+    <string name="app_feedback">Impendulo yohlelo</string>
+    <string name="preferences_header">Okuncanyelwayo</string>
+    <string name="language_label">Ulimi</string>
+    <string name="notification_label">Isaziso</string>
+    <string name="choose_language_title">Khetha ulimi</string>
+    <string name="security_header">Ukuphepha</string>
+    <string name="biometric_login_label">Ukungena nge-biometric</string>
+    <string name="biometric_set_up_action">Setha</string>
+</resources>

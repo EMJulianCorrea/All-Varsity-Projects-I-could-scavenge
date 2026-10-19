@@ -1,0 +1,14 @@
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\bin\Debug\net10.0\CEOTreeHierarchy.exe
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\bin\Debug\net10.0\CEOTreeHierarchy.deps.json
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\bin\Debug\net10.0\CEOTreeHierarchy.runtimeconfig.json
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\bin\Debug\net10.0\CEOTreeHierarchy.dll
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\bin\Debug\net10.0\CEOTreeHierarchy.pdb
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\obj\Debug\net10.0\CEOTreeHierarchy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\obj\Debug\net10.0\CEOTreeHierarchy.AssemblyInfoInputs.cache
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\obj\Debug\net10.0\CEOTreeHierarchy.AssemblyInfo.cs
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\obj\Debug\net10.0\CEOTreeHierarchy.csproj.CoreCompileInputs.cache
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\obj\Debug\net10.0\CEOTreeHierarchy.dll
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\obj\Debug\net10.0\refint\CEOTreeHierarchy.dll
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\obj\Debug\net10.0\CEOTreeHierarchy.pdb
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\obj\Debug\net10.0\CEOTreeHierarchy.genruntimeconfig.cache
+C:\Users\emeris\Documents\VS Code\ProgEB\CEOTreeHierarchy\obj\Debug\net10.0\ref\CEOTreeHierarchy.dll

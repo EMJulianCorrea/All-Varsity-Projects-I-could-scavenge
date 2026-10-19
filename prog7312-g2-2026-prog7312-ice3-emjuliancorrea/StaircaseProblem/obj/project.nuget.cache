@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "4CWknV1fbEw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emeris\\Documents\\VS Code\\ProgEB\\Recursions\\StaircaseProblem\\StaircaseProblem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emeris\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.28\\microsoft.netcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\emeris\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.28\\microsoft.windowsdesktop.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\emeris\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.28\\microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\emeris\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.28\\microsoft.netcore.app.host.win-x64.8.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}
